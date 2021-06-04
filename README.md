@@ -9,10 +9,14 @@ Assigns doc IDs to files inside the directory named *files*, creates the inverte
 3. retrieval_task.py <br />
 Contains Boolean operators: *and*, *or*, *not*. Supports *main.py* in the searching process.
 ---
+## Requirements
+1. Python 3.x
+2. nltk
+---
 ## How to use
 * Create a new directory and keep the above mentioned files inside the same.
 * Create ```/files``` storing the documents to perform the retrieval task on.
-* Run ```main.py```. Refer to the instructions.
+* Run ```main.py``` from the main directory. Refer to the instructions.
 ---
 ## Fixes needed
 * Porter stemmer
